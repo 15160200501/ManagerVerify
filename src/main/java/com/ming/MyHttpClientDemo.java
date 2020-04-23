@@ -70,7 +70,7 @@ public class MyHttpClientDemo {
 
     public static void main(String[] args) {
         Map<String, String> params = new HashMap<String, String>();
-        params.put("mobile","19941565170");
+        params.put("mobile","自己的手机号码");
         params.put("tpl_id","211907");
         params.put("tpl_value","%23code%23%3d5643");
         params.put("key","自己的AppKey");
