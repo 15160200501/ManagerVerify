@@ -73,7 +73,7 @@ public class MyHttpClientDemo {
         params.put("mobile","19941565170");
         params.put("tpl_id","211907");
         params.put("tpl_value","%23code%23%3d5643");
-        params.put("key","5eea0fb1a837cadf0ddc24a4e2c21540");
+        params.put("key","自己的AppKey");
         params.put("dtype","json");
         System.out.println(MyHttpClientDemo.doPost("http://v.juhe.cn/sms/send",params));
     }
